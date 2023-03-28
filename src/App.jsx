@@ -1,8 +1,15 @@
 import "./App.css";
-import { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import CardContainer from "./components/CardContainer";
 
 function App({ base }) {
+  // const [data, setData] = useState(null)
+  // useEffect(() => {
+
+
+    
+  // }, [])
+  
   return (
     <div className="App">
       <main>

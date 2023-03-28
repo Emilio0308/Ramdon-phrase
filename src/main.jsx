@@ -1,17 +1,16 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import getInfo from './components/getInfo'
-import getInfo2 from './components/getInfo2'
-import getInfo3 from './components/getInfo3'
 import './index.css'
+import db from "./components/db.json"
 
-const {data} = await getInfo()
-// const {data2} = await getInfo2()
-// const {data3} = await getInfo3()
+
+// const {data} = await getInfo()
+console.log(db)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App base = {data} />
+    <App base = {db} />
   </React.StrictMode>,
 )
+

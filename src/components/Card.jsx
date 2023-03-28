@@ -11,7 +11,7 @@ function Card({ info , ramdonNum}) {
       <p className="phrase">{info[ramdonNum].phrase}</p>
       <span className="author">Author : {info[ramdonNum].author}</span>
       <div className="alien">
-        <img src="src/assets/imagenes/alien.png" alt="alien"  />
+        <img src="/imagenes/alien.png" alt="alien"  />
       </div>
     </div>
   );

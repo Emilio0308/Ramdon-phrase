@@ -5,7 +5,6 @@ import './index.css'
 import db from "./components/db.json"
 
 
-// const {data} = await getInfo()
 console.log(db)
 
 ReactDOM.createRoot(document.getElementById('root')).render(

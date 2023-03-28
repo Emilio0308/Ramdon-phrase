@@ -8,12 +8,12 @@ function CardContainer({ base }) {
 
   const [ramdonNum, setRamdonNum] = useState(Math.floor(Math.random() * base.length));
   const [backgroundImage, setBackgroundImage] = 
-  useState( `url(src/assets/imagenes/espacio/espacio_img${backGroundNum}.webp)`);
+  useState( `url(/imagenes/espacio/espacio_img${backGroundNum}.webp)`);
 
   const generateRandon = () => {
     let s = Math.floor(Math.random() * base.length);
     setRamdonNum(s);
-    setBackgroundImage(`url(src/assets/imagenes/espacio/espacio_img${backGroundNum}.webp)`);
+    setBackgroundImage(`url(/imagenes/espacio/espacio_img${backGroundNum}.webp)`);
   };
   return (
     <>
